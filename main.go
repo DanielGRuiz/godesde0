@@ -13,10 +13,9 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto)
 
-	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
-		fmt.Println("No es Windows")
-	} else {
-
+	if os := runtime.GOOS; os == "windows" {
 		fmt.Println("Es Windows")
+	} else {
+		fmt.Println("No es Windows")
 	}
 }
