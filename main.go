@@ -20,7 +20,7 @@ func main() {
 		fmt.Println("No es Windows")
 	}
 
-	valor, mensaje := ejercicios.DevuelveValores("123")
+	valor, mensaje := ejercicios.DevuelveValores("13")
 	fmt.Println(valor)
 	fmt.Println(mensaje)
 }
