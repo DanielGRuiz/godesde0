@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/DanielGRuiz/godesdeo/ejercicios"
 	"github.com/DanielGRuiz/godesdeo/variables"
 )
 
@@ -18,4 +19,8 @@ func main() {
 	} else {
 		fmt.Println("No es Windows")
 	}
+
+	valor, mensaje := ejercicios.DevuelveValores("123")
+	fmt.Println(valor)
+	fmt.Println(mensaje)
 }
