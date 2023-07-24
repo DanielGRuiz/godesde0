@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	teclado "github.com/DanielGRuiz/godesdeo/Teclado"
 	"github.com/DanielGRuiz/godesdeo/ejercicios"
 	"github.com/DanielGRuiz/godesdeo/variables"
 )
@@ -24,5 +25,5 @@ func main() {
 	fmt.Println(valor)
 	fmt.Println(mensaje)
 
-	IngresoNumeros()
+	teclado.IngresoNumeros()
 }
