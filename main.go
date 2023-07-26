@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/DanielGRuiz/godesdeo/files"
+	"github.com/DanielGRuiz/godesdeo/arreglos_slices"
 )
 
 func main() {
@@ -30,5 +30,7 @@ func main() {
 
 	//files.AgregarArchivo()
 
-	files.LeerArchivo()
+	//files.LeerArchivo()
+
+	arreglos_slices.Capacidad()
 }
