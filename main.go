@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/DanielGRuiz/godesdeo/ejercicios"
+	"github.com/DanielGRuiz/godesdeo/files"
 )
 
 func main() {
@@ -24,5 +24,11 @@ func main() {
 		teclado.IngresoNumeros()
 	*/
 
-	ejercicios.TablaMultiplicar()
+	//fmt.Printf(ejercicios.TablaMultiplicar())
+
+	//files.CrearArchivo()
+
+	//files.AgregarArchivo()
+
+	files.LeerArchivo()
 }

@@ -7,7 +7,9 @@ import (
 	"strconv"
 )
 
-func TablaMultiplicar() {
+func TablaMultiplicar() string {
+	var texto string
+
 	for true {
 		numero, esNUmero := EntradaNumero("Ingrese un numero:")
 
@@ -16,13 +18,13 @@ func TablaMultiplicar() {
 		}
 
 		for i := 1; i <= 10; i++ {
-			resultado := i * numero
-			fmt.Println(numero, " x ", i, " = ", resultado)
+			texto += fmt.Sprintf("%d x %d = %d \n", numero, i, numero*i)
 		}
 
 		break
 	}
 
+	return texto
 }
 
 func EntradaNumero(mensaje string) (int, bool) {
