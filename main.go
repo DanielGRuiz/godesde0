@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/DanielGRuiz/godesdeo/arreglos_slices"
+	"github.com/DanielGRuiz/godesdeo/webserver"
 )
 
 func main() {
@@ -32,5 +32,29 @@ func main() {
 
 	//files.LeerArchivo()
 
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	//users.AgregarUsuario()
+
+	//daniel := new(modelos.Hombre)
+	//impl_interfaces.HumanosRespirando(daniel)
+
+	//liliana := new(modelos.Mujer)
+	//impl_interfaces.HumanosRespirando(liliana)
+
+	//defec_panic.EjemploPanic()
+
+	//canal1 := make(chan bool)
+	//go goroutines.MiNombreLento("Daniel Ruiz", canal1)
+
+	//defer func() {
+	//	<-canal1
+	//}()
+	//fmt.Println("Esperando ...")
+	//var valorEntrada string
+	//fmt.Scan(&valorEntrada)
+
+	webserver.MiWebServer()
 }
