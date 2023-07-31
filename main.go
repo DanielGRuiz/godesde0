@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/DanielGRuiz/godesdeo/webserver"
+	"github.com/DanielGRuiz/godesdeo/middleware"
 )
 
 func main() {
@@ -56,5 +56,7 @@ func main() {
 	//var valorEntrada string
 	//fmt.Scan(&valorEntrada)
 
-	webserver.MiWebServer()
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
